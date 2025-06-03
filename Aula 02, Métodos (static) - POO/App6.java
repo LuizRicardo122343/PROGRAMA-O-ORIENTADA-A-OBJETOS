@@ -1,4 +1,4 @@
-Exercícios•4 –Criar  o método calcularFatorial()que receba como parâmetro  um número inteiro  e retorne o fatorial  calculado.
+//Exercícios•4 –Criar  o método calcularFatorial()que receba como parâmetro  um número inteiro  e retorne o fatorial  calculado.
 
 public class App {
     public static void main(String[] args) throws Exception {
