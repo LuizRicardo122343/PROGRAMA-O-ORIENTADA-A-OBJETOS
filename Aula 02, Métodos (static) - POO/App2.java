@@ -1,4 +1,4 @@
-/////////////Exemplo 1 –voide sem parâmetros
+//Exemplo 1 –voide sem parâmetros
 
 public class App {
     public static void main(String[] args) throws Exception {
