@@ -1,17 +1,18 @@
 //1 –Criar  o método encontrarMax()que retorne o maior valorentre dois números lidos no main().•O método deve  receber dois parâmetros  do tipo int.
 
-public class App {
-    public static void main(String[] args) throws Exception {
-        int num1 = 10;
-        int num2 = 20;
-        int max = encontrarMax(num1, num2);
-        System.out.println("O maior valor é: " + max);
+public class App4 {
+
+    public static boolean isPar(int numero) {
+        return numero % 2 == 0;
     }
-    static int encontrarMax(int n1, int n2) {
-        if (n1 > n2) {
-            return n1;
+
+    public static void main(String[] args) {
+        int n = 7;
+
+        if (isPar(n)) {
+            System.out.println(n + " é par.");
         } else {
-            return n2;
+            System.out.println(n + " é ímpar.");
         }
     }
 }

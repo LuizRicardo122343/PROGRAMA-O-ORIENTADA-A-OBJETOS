@@ -1,6 +1,6 @@
 //Exemplo 2 –voide com parâmetro
 
-public class App {
+public class App1 {
     public static void main(String[] args) throws Exception {
         //voide sem par�metros
         imprimirDadosDisciplna("luiz");

@@ -1,6 +1,6 @@
 //Exemplo 1 –voide sem parâmetros
 
-public class App {
+public class App2 {
     public static void main(String[] args) throws Exception {
         //voide sem par�metros
         imprimirDadosDisciplna();

@@ -3,14 +3,10 @@
 // O procedimento deve  mostrar uma mensagem de erro caso o número recebido não faça sentido. 
 // •Usar o swich..casecomo estrutura  de decisão
 
-public class App {
-    public static void main(String[] args) throws Exception {
-        int mes = 2;
-        exibirMes(mes);
-    }
+public class App5 {
 
-    static void exibirMes(int mes) {
-        switch (mes) {
+    public static void exibirMes(int numeroMes) {
+        switch (numeroMes) {
             case 1:
                 System.out.println("Janeiro");
                 break;
@@ -48,7 +44,12 @@ public class App {
                 System.out.println("Dezembro");
                 break;
             default:
-                System.out.println("Erro: Mês inválido!");
-                break;
+                System.out.println("Erro: número de mês inválido.");
+        }
+    }
+
+    public static void main(String[] args) {
+        exibirMes(2);  // Exibe: Fevereiro
+        exibirMes(13); // Exibe: Erro
     }
 }
